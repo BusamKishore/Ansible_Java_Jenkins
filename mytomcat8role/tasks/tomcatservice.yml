@@ -2,4 +2,4 @@
 - name: create the tomcat service an ansible node
   template:
     src: templates/mytomservice.j2
-    path: /etc/systemd/system/tomcat.service
+    desc: /etc/systemd/system/tomcat.service
