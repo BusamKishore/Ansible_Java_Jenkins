@@ -20,4 +20,4 @@
 
 [mywebservers:vars]
 mywebpackageforubuntu= apache
-c= httpd
+mywebpackageforredhat= httpd
