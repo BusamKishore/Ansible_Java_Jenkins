@@ -1,0 +1,13 @@
+
+mywebpackageforubuntu: apache2
+mywebpackageforredhat: httpd
+
+myjavapackageforubuntu: openjdk-7-jre
+myjavapackageforredhat: java-1.7.0-openjdk
+
+myphppackageforubuntu: ftp
+myphppackageforredhat: zip
+
+
+
+
