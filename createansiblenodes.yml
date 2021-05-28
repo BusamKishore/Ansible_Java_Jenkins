@@ -6,7 +6,7 @@
     ec2:
       key_name: myUbuntu
       instance_type: t2.micro
-      image: myansible_Ubuntu_AMI
+      image: ami-0e925602cd032f1b7
       wait: yes
       region: us-east-2
       group: launch-wizard-8
