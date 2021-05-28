@@ -1,0 +1,7 @@
+---
+- hosts: tag_name_myansibleUbuntuNode
+  become: yes
+  tasks:
+  - name: install webserver
+    apt:
+      name: apacheI2
