@@ -5,7 +5,7 @@
   - name: create ansible ubuntu nodes
     ec2:
       key_name: myUbuntu
-      instance-type: t2.micro
+      instance_type: t2.micro
       image: myansible_Ubuntu_AMI
       wait: yes
       region: us-east-2
@@ -15,3 +15,5 @@
       assign_public_ip: yes
       instance_tags:
         name: myansibleUbuntuNode
+
+
