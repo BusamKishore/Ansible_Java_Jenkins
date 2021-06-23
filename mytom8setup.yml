@@ -1,6 +1,6 @@
 ---
-- hosts: webservers
+- hosts: myapplicationservers
   become: yes
   roles:
-    - {role: mytomcat8role, when: ansible_os_family== "Debian"}
+  - {role: mytom8role, when: ansible_os_family=="Debian" }
 
